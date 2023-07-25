@@ -16,7 +16,7 @@
             <PatternLayout>
                 <Pattern>%d %-5p %-12c: %m%n</Pattern>
             </PatternLayout>
-            <ThresholdFilter level="all" /> <!-- для консольного вывода установлен уровень all с помощью элемента ThresholdFilter, -->
+            <ThresholdFilter level="all" /> <!-- для вывода записи в файл установлен уровень all с помощью элемента ThresholdFilter, -->
             <TimeBasedTriggeringPolicy/>
             <DefaultRolloverStrategy>
                 <Delete basePath="logs" maxDepth="2">
